@@ -4,6 +4,11 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
+import 'angular';
+import 'angular-resource';
+import 'angular-route';
+import './app-ajs';
+
 if (environment.production) {
   enableProdMode();
 }
